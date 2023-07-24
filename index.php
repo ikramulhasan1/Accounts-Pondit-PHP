@@ -22,8 +22,10 @@
             <!-- <img src="./images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form method="POST" id="signup-form" class="signup-form">
+                    <form action="register.php" method="get" id="signup-form" class="signup-form">
                         <h2 class="form-title">Create account</h2>
+
+
                         <div class="form-group">
                             <input type="text" class="form-input" name="name" id="name"
                                 placeholder="Your Name" />
@@ -42,6 +44,8 @@
                             <input type="password" class="form-input" name="re_password"
                                 id="re_password" placeholder="Repeat your password" />
                         </div>
+
+
                         <div class="form-group">
                             <input type="checkbox" name="agree-term" id="agree-term"
                                 class="agree-term" />
@@ -56,7 +60,8 @@
                         </div>
                     </form>
                     <p class="loginhere">
-                        Have already an account ? <a href="./login.php" class="loginhere-link">Login
+                        Have already an account ? <a href="./login.html"
+                            class="loginhere-link">Login
                             here</a>
                     </p>
                 </div>
