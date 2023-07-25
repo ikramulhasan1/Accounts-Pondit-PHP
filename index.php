@@ -22,7 +22,7 @@
             <!-- <img src="./images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form action="register.php" method="get" id="signup-form" class="signup-form">
+                    <form action="./dataSave.php" method="get" id="signup-form" class="signup-form">
                         <h2 class="form-title">Create account</h2>
 
 
@@ -60,8 +60,7 @@
                         </div>
                     </form>
                     <p class="loginhere">
-                        Have already an account ? <a href="./login.html"
-                            class="loginhere-link">Login
+                        Have already an account ? <a href="./login.php" class="loginhere-link">Login
                             here</a>
                     </p>
                 </div>

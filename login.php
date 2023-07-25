@@ -36,14 +36,14 @@
                                             <h4 class="mt-1 mb-5 pb-1">We are The Lotus Team</h4>
                                         </div>
 
-                                        <form>
+                                        <form action="./dataSave.php">
                                             <p>Please login to your account</p>
 
                                             <div class="form-outline mb-4">
                                                 <label class="form-label"
                                                     for="form2Example11">Email</label>
 
-                                                <input type="email" id="form2Example11"
+                                                <input type="email" name="email" id="form2Example11"
                                                     class="form-control"
                                                     placeholder="Phone number or email address" />
                                             </div>
@@ -52,16 +52,16 @@
                                                 <label class="form-label"
                                                     for="form2Example22">Password</label>
 
-                                                <input type="password" id="form2Example22"
-                                                    class="form-control" />
+                                                <input type="password" name="password"
+                                                    id="form2Example22" class="form-control" />
                                             </div>
 
                                             <div
                                                 class="text-center pt-1 mb-5 pb-1 d-flex flex-column">
-                                                <button
+                                                <input
                                                     class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
-                                                    type="button">Log
-                                                    in</button>
+                                                    type="button" name="login">Log
+                                                in</input>
                                                 <a class="text-muted" href="#!">Forgot password?</a>
                                             </div>
 

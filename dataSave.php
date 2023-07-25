@@ -31,3 +31,12 @@ echo $_SERVER['SERVER_NAME'];
 // echo '<br>';
 // echo $_GET['password'];
 ?>
+<?php
+if (isset($_GET['submit'])) {
+
+    echo $_GET['name'] . "<br>";
+    echo $_GET['email'] . "<br>";
+    echo $_GET['password'] . "<br>";
+}
+
+?>
